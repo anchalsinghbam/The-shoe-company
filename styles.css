@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+
+header {
+  background-color: #000;
+  /* background-image: url("img/background-road-share\ 1.png"); */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  width: 100%;
+}
+
+.nav-links{
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger .fa-bars {
+ color: #fff;
+ font-size: 2rem;
+ display: none;
+}
+
+@media screen and (max-width: 1024px)  {
+
+  nav {
+    padding: 0 2rem;
+  }
+  .nav-logo {
+    width: 7rem;
+  }
+
+  .nav-links a {
+    font-size: .9rem;
+  }
+  
+}
+
+@media screen and (max-width: 850px)  {
+
+  .nav-list {
+    display: none;
+    /* flex-direction: column;
+    gap: 2rem;
+    background-image: url("img\black-background-hero 1.png"); */
+  }
+
+  .nav-links a {
+    font-size: 1.5rem;
+  }
+
+  .hamburger .fa-bars {
+    display: block;
+   }
+}
