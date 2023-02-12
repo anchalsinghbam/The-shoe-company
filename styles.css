@@ -5,10 +5,22 @@
   font-family: 'Archivo', sans-serif;
 }
 
-header {
+body {
   background-color: #000;
-  /* background-image: url("img/background-road-share\ 1.png"); */
+  color: #fff;
 }
+
+.shoe-company {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/******Header********/
 
 nav {
   display: flex;
@@ -40,6 +52,89 @@ nav {
  display: none;
 }
 
+.close {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.right-arrow {
+  width: 3rem;
+}
+
+/******Hero Section********/
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 8rem;
+ 
+}
+
+.hero-text {
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.hero-img {
+  height: 40rem;
+}
+
+.background-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -100;
+}
+
+/******About Section********/
+
+.about-us {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  background-color: #000;
+  margin-top: 5rem;
+}
+
+.about-img {
+  height: 48rem;
+}
+
+.about-text {
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-text P {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/*********Testimonials Section***********/
+
+.testimonials-section {
+  background-image: url(img/Testimonials-background.png);
+  background-size: cover;
+  padding: 5rem;
+}
+
+.testimonials-section h2 {
+  padding: 0 15rem;
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+}
+
+
+
 @media screen and (max-width: 1024px)  {
 
   nav {
@@ -59,9 +154,15 @@ nav {
 
   .nav-list {
     display: none;
-    /* flex-direction: column;
+    flex-direction: column;
     gap: 2rem;
-    background-image: url("img\black-background-hero 1.png"); */
+    padding: 2rem;
+    position: absolute;
+    width: 15rem;
+    right: 1rem;
+    top: 13px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 4px;
   }
 
   .nav-links a {
@@ -70,5 +171,6 @@ nav {
 
   .hamburger .fa-bars {
     display: block;
+    cursor: pointer;
    }
 }

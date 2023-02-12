@@ -1,40 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The shoe company</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap"rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The shoe company</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <section class="shoe-company">
     <header>
       <div class="row">
         <nav>
-          <div >
+          <div>
             <img class="nav-logo" src="img/Group 2.png" alt="" />
           </div>
           <ul class="nav-list">
-             <li class="nav-links"><a href="#">Home</a></li>
-             <li class="nav-links"><a href="#">How it Works?</a></li>
-             <li class="nav-links"><a href="#">About</a></li>
-             <li class="nav-links"><a href="#">Testimonials</a></li>
+            <li class="nav-links"><a href="#">Home</a></li>
+            <li class="nav-links"><a href="#">How it Works?</a></li>
+            <li class="nav-links"><a href="#">About</a></li>
+            <li class="nav-links"><a href="#">Testimonials</a></li>
             <li class="nav-links"><a href="#">Contact Us</a></li>
           </ul>
           <div class="hamburger">
             <i class="fa-solid fa-bars"></i>
           </div>
-      </nav>
+          <div class="close">
+            <img class="right-arrow" src="img/arrowright.svg" alt="">
+          </div>
+        </nav>
     </header>
-  </body>
+    <main>
+      <section class="hero-section">
+        <div>
+          <p class="hero-text">The <br> Shoe <br> Company</p>
+        </div>
+        <div>
+          <img class="hero-img" src="img/the-white-shoe-hero-image 1.png" alt="">
+          <img src="img/background-road-share 1.png" alt="" class="background-img">
+        </div>
+      </section>
+      <section class="about-us">
+        <div>
+          <img class="about-img" src="img/Group 14.png" alt="">
+        </div>
+        <div class="about-text">
+          <h2>About Us!</h2>
+          <p>
+            For each one of those shoe sweethearts out there, THE SHOE COMPANY offer the one-stop goal to pick the
+            correct match of footwear.
+          </p>
+          <p>
+            Gone are the days when you needed to go from store to store to locate the correct style and size for
+            yourself.
+          </p>
+          <p>
+            At THE SHOE COMPANY, you can locate a vast accumulation of dashing footwear in all sizes and styles, all
+            inside a couple of snaps.
+          </p>
+          <p>
+            Simple right? Not just we are here to spare your time, we are putting forth you the most dazzling footwear
+            alternatives from all the first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. At ‘Organization Name’,
+            we offer men, ladies, and child’s shoes perfect for any and each event.
+          </p>
+        </div>
+      </section>
+      <section class="testimonials-section">
+        <h2>What People are saying about THE SHOE COMPANY ?</h2>
+        <div class="testimonials">
+          <div class="jon">
+            <img src="img/jon.png" alt="">
+            <p>
+              “Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and
+              build quality.”
+            </p>
+          </div>
+          <div class="taniya">
+            <img src="img/taniya.png" alt="">
+            <p>
+              “I love the shoes, the quality, and everyting. They are worth the investment!”
+            </p>
+          </div>
+          <div class="ben">
+            <img src="img/ben.png" alt="">
+            <p>
+              “They make the best and forever lasting shoes. Superb fit and confort is literally the next level. Much recommended!”
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+</body>
+
 </html>
